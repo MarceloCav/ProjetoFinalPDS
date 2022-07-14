@@ -9,7 +9,8 @@ import struct
 from scipy.io import wavfile
 
 # Read the wav file (mono)
-samplingFrequency, signalData = wavfile.read('<audiofilename>.wav')
+audiofilename = input("Enter the audio file name: ")
+samplingFrequency, signalData = wavfile.read( '' + audiofilename + '' + '.wav')
 print(samplingFrequency)
 print(signalData)
 
