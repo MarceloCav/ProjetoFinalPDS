@@ -3,9 +3,10 @@ Processamento de sinais aplicado a análise da fala. Projeto Final.
 
 *Os códigos devem ser colocados na mesma pasta que o audio para rodar, aqui os deixei separados apenas por organização
 
-Como utilizar os códigos:
+audios/ > encontrará todos os áudios do projeto, todos são do sexo masculino e o nome do arquivo é referente a idade;
 
-colocar o audio e o codigo .py no mesmo diretorio, abrir o terminal nesse mesmo diretorio e rodar > python '<code_file_name>.py'
-e cada código vai pedir os respectivos inputs
+codes/ > poderá ver os códigos utilizados no projeto, tanto em python quanto no Octave;
 
-*o codigo do filtro passa banda pode bugar se colocar o lowcut como zero, usei sempre 100 e ficou ok
+images/ > aqui você verá todas as imagens geradas pelos códigos e as imagens necessárias;
+      images/freq/ > imagens relacionadas ao dominio da frequencia;
+      images/time/ > imagens relacionadas ao dominio do tempo;
